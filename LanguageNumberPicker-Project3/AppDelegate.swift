@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //This code will set the status bar text color to white
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 
@@ -35,6 +38,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        //showAlertAppDelegate is a function to display an UIAlert to the View Controller. The alert will be called with an Instructions Message for the user. The alert will appear each time the app is opened (i.e. launched for the first time or when opened again after pressing the home button
+        
+        func showAlertAppDelegate(title : String, message : String, buttonTitle : String,window: UIWindow){
+            let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: buttonTitle, style: UIAlertActionStyle.default, handler: nil))
+            window.rootViewController?.present(alert, animated: true, completion: nil)
+        }
+        showAlertAppDelegate(title: "Instructions - Instrucciones",message: "Match the numbers in all three columns.\nEmparejar los números en las tres columnas.", buttonTitle: "OK",window: self.window!);
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

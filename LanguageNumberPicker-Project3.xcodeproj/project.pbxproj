@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091C413A1E47D12900CBFB11 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 091C41381E47D12900CBFB11 /* logo1.png */; };
+		091C413B1E47D12900CBFB11 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 091C41391E47D12900CBFB11 /* logo2.png */; };
+		092617EE1E471E3B0004B015 /* Correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 092617EC1E471E3B0004B015 /* Correct.mp3 */; };
+		092617EF1E471E3B0004B015 /* Wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 092617ED1E471E3B0004B015 /* Wrong.mp3 */; };
+		09301FD91E4589C700CC5C3E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 09301FD81E4589C700CC5C3E /* logo.png */; };
 		09458DD61E41CE030050077F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09458DD51E41CE030050077F /* AppDelegate.swift */; };
 		09458DD81E41CE030050077F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09458DD71E41CE030050077F /* ViewController.swift */; };
 		09458DDB1E41CE030050077F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09458DD91E41CE030050077F /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		09458DE01E41CE030050077F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09458DDE1E41CE030050077F /* LaunchScreen.storyboard */; };
 		09458DEB1E41CE040050077F /* LanguageNumberPicker_Project3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09458DEA1E41CE040050077F /* LanguageNumberPicker_Project3Tests.swift */; };
 		09458DF61E41CE040050077F /* LanguageNumberPicker_Project3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09458DF51E41CE040050077F /* LanguageNumberPicker_Project3UITests.swift */; };
+		09458E051E41DC480050077F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09458E041E41DC480050077F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091C41381E47D12900CBFB11 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		091C41391E47D12900CBFB11 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		092617EC1E471E3B0004B015 /* Correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Correct.mp3; sourceTree = "<group>"; };
+		092617ED1E471E3B0004B015 /* Wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wrong.mp3; sourceTree = "<group>"; };
+		09301FD81E4589C700CC5C3E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		09458DD21E41CE030050077F /* LanguageNumberPicker-Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LanguageNumberPicker-Project3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09458DD51E41CE030050077F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09458DD71E41CE030050077F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		09458DF11E41CE040050077F /* LanguageNumberPicker-Project3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LanguageNumberPicker-Project3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09458DF51E41CE040050077F /* LanguageNumberPicker_Project3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageNumberPicker_Project3UITests.swift; sourceTree = "<group>"; };
 		09458DF71E41CE040050077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09458E041E41DC480050077F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09458E051E41DC480050077F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 				09458DE91E41CE040050077F /* LanguageNumberPicker-Project3Tests */,
 				09458DF41E41CE040050077F /* LanguageNumberPicker-Project3UITests */,
 				09458DD31E41CE030050077F /* Products */,
+				09458E031E41DC480050077F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +111,11 @@
 		09458DD41E41CE030050077F /* LanguageNumberPicker-Project3 */ = {
 			isa = PBXGroup;
 			children = (
+				091C41381E47D12900CBFB11 /* logo1.png */,
+				091C41391E47D12900CBFB11 /* logo2.png */,
+				092617EC1E471E3B0004B015 /* Correct.mp3 */,
+				092617ED1E471E3B0004B015 /* Wrong.mp3 */,
+				09301FD81E4589C700CC5C3E /* logo.png */,
 				09458DD51E41CE030050077F /* AppDelegate.swift */,
 				09458DD71E41CE030050077F /* ViewController.swift */,
 				09458DD91E41CE030050077F /* Main.storyboard */,
@@ -123,6 +142,14 @@
 				09458DF71E41CE040050077F /* Info.plist */,
 			);
 			path = "LanguageNumberPicker-Project3UITests";
+			sourceTree = "<group>";
+		};
+		09458E031E41DC480050077F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09458E041E41DC480050077F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +259,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092617EE1E471E3B0004B015 /* Correct.mp3 in Resources */,
+				09301FD91E4589C700CC5C3E /* logo.png in Resources */,
+				092617EF1E471E3B0004B015 /* Wrong.mp3 in Resources */,
 				09458DE01E41CE030050077F /* LaunchScreen.storyboard in Resources */,
 				09458DDD1E41CE030050077F /* Assets.xcassets in Resources */,
 				09458DDB1E41CE030050077F /* Main.storyboard in Resources */,
+				091C413A1E47D12900CBFB11 /* logo1.png in Resources */,
+				091C413B1E47D12900CBFB11 /* logo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +537,7 @@
 				09458DFC1E41CE040050077F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09458DFD1E41CE040050077F /* Build configuration list for PBXNativeTarget "LanguageNumberPicker-Project3Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +546,7 @@
 				09458DFF1E41CE040050077F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09458E001E41CE040050077F /* Build configuration list for PBXNativeTarget "LanguageNumberPicker-Project3UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +555,7 @@
 				09458E021E41CE040050077F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
